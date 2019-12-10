@@ -10,19 +10,22 @@ Example 2:
 public class RemoveDuplicatesfromSortedListII {
 	public ListNode deleteDuplicates(ListNode head) {
 		if(head==null){return head;}
-		if(head.next==null){return head;}
-		ListNode pre = null;
-		ListNode current = head;
-		ListNode Next = head.next;
-		while(Next!=null){
-			if(current.val==Next.val){
-				Next = Next.next;
-				current.next = Next;
-			}else {
-
+		if (head.next==null){return head;}
+		ListNode newhead = new ListNode(-1);
+		newhead.next = head;
+		ListNode Pre=newhead;
+		ListNode Cur;
+		while(Pre.next!=null){
+			Cur=Pre.next;
+			while(Cur.next!=null && Cur.next.val ==Cur.val){
+				Cur=Cur.next;
 			}
-
+			if(Cur!=Pre.next){
+				Pre.next=Cur.next;
+			}else {
+				Pre=Pre.next;
+			}
 		}
-		return head;
+		return newhead.next;
 	}
 }
