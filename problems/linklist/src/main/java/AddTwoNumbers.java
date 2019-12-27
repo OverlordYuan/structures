@@ -17,7 +17,6 @@ question:You are given two non-empty linked lists representing two non-negative 
  * }
  */
 
-
 public class AddTwoNumbers {
 
 	public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
