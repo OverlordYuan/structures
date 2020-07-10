@@ -20,17 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c7cc3de-d448-4ae0-bbc1-3fbe83de4a3f" name="Default Changelist" comment="up">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/sort/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/sort/sort.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/sort/src/main/java/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/sort/src/main/java/Traversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/sort/src/main/java/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/Dynamic Programming/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/Dynamic Programming/src/main/java/lengthOfLIS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/Dynamic Programming/src/main/java/minPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/Dynamic Programming/src/main/java/pack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/structures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/structures.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/linklist/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/problems/linklist/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/linklist/target/classes/ReorderList.class" beforeDir="false" afterPath="$PROJECT_DIR$/problems/linklist/target/classes/ReorderList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/linklist/linklist.iml" beforeDir="false" afterPath="$PROJECT_DIR$/problems/linklist/linklist.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/sort/sort.iml" beforeDir="false" afterPath="$PROJECT_DIR$/problems/sort/sort.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/sort/src/main/java/Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/problems/sort/src/main/java/Traversal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,17 +52,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cZoOLcSnegffrqyiDXTpGbvlr0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="jdk.selected.JAVA_MODULE" value="12" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../工作/程序/searchDemo" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -73,9 +77,9 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.scopes" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.Sort">
+  <component name="RunManager" selected="Application.lengthOfLIS">
     <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddTwoNumbers" />
       <module name="linklist" />
@@ -90,6 +94,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="lengthOfLIS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lengthOfLIS" />
+      <module name="Dynamic Programming" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="minPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="minPathSum" />
+      <module name="Dynamic Programming" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test" />
       <module name="linklist" />
@@ -99,6 +117,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lengthOfLIS" />
+        <item itemvalue="Application.minPathSum" />
         <item itemvalue="Application.Sort" />
         <item itemvalue="Application.AddTwoNumbers" />
         <item itemvalue="Application.test" />
@@ -142,7 +162,11 @@
       <workItem from="1590999205612" duration="9411000" />
       <workItem from="1591606115953" duration="11093000" />
       <workItem from="1591864007353" duration="7127000" />
-      <workItem from="1592297125171" duration="15416000" />
+      <workItem from="1592297125171" duration="18348000" />
+      <workItem from="1592976389757" duration="5927000" />
+      <workItem from="1593492165849" duration="18142000" />
+      <workItem from="1593767093739" duration="2679000" />
+      <workItem from="1594171932493" duration="12171000" />
     </task>
     <task id="LOCAL-00001" summary="up">
       <created>1575963008371</created>
@@ -186,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590745514962</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="up">
+      <created>1592819845388</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1592819845388</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,54 +236,67 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="up" />
     <option name="LAST_COMMIT_MESSAGE" value="up" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="687" y="236" key="FileChooserDialogImpl" timestamp="1591685347186">
+    <state x="312" y="10" key="#Project_Structure" timestamp="1593492264703">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="687" y="236" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1591685347186" />
-    <state width="1866" height="348" key="GridCell.Tab.0.bottom" timestamp="1592274865352">
+    <state x="312" y="10" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1593492264703" />
+    <state x="687" y="236" key="FileChooserDialogImpl" timestamp="1594197257422">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1866" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1592274865352" />
-    <state width="1866" height="348" key="GridCell.Tab.0.center" timestamp="1592274865352">
+    <state x="687" y="236" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1594197257422" />
+    <state width="1866" height="280" key="GridCell.Tab.0.bottom" timestamp="1593683152118">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1866" height="348" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1592274865352" />
-    <state width="1866" height="348" key="GridCell.Tab.0.left" timestamp="1592274865352">
+    <state width="1866" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1593683152118" />
+    <state width="1866" height="280" key="GridCell.Tab.0.center" timestamp="1593683152118">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1866" height="348" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1592274865352" />
-    <state width="1866" height="348" key="GridCell.Tab.0.right" timestamp="1592274865352">
+    <state width="1866" height="280" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1593683152118" />
+    <state width="1866" height="280" key="GridCell.Tab.0.left" timestamp="1593683152118">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1866" height="348" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1592274865352" />
-    <state width="1866" height="348" key="GridCell.Tab.1.bottom" timestamp="1592274865352">
+    <state width="1866" height="280" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1593683152118" />
+    <state width="1866" height="280" key="GridCell.Tab.0.right" timestamp="1593683152118">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1866" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1592274865352" />
-    <state width="1866" height="348" key="GridCell.Tab.1.center" timestamp="1592274865352">
+    <state width="1866" height="280" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1593683152118" />
+    <state width="1866" height="366" key="GridCell.Tab.1.bottom" timestamp="1593683151669">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1866" height="348" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1592274865352" />
-    <state width="1866" height="348" key="GridCell.Tab.1.left" timestamp="1592274865352">
+    <state width="1866" height="366" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1593683151669" />
+    <state width="1866" height="366" key="GridCell.Tab.1.center" timestamp="1593683151669">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1866" height="348" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1592274865352" />
-    <state width="1866" height="348" key="GridCell.Tab.1.right" timestamp="1592274865352">
+    <state width="1866" height="366" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1593683151669" />
+    <state width="1866" height="366" key="GridCell.Tab.1.left" timestamp="1593683151668">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1866" height="348" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1592274865352" />
-    <state x="452" y="208" key="Vcs.Push.Dialog.v2" timestamp="1590745530510">
+    <state width="1866" height="366" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1593683151668" />
+    <state width="1866" height="366" key="GridCell.Tab.1.right" timestamp="1593683151669">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="452" y="208" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1590745530510" />
-    <state x="158" y="71" key="new project wizard" timestamp="1591606595709">
+    <state width="1866" height="366" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1593683151669" />
+    <state x="344" y="21" key="SettingsEditor" timestamp="1593503933391">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="158" y="71" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1591606595709" />
+    <state x="344" y="21" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1593503933391" />
+    <state x="452" y="208" key="Vcs.Push.Dialog.v2" timestamp="1592819860252">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="452" y="208" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1592819860252" />
+    <state x="158" y="71" key="new project wizard" timestamp="1593492250942">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="158" y="71" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1593492250942" />
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1593590704912">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1593590704912" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -267,102 +311,17 @@
           <line>48</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/problems/Dynamic Programming/src/main/java/minPathSum.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/problems/Dynamic Programming/src/main/java/lengthOfLIS.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>linklist</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

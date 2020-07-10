@@ -21,35 +21,35 @@ public class Traversal {
         if(root!=null){
             Stack<TreeNode> stack = new Stack<TreeNode>();
             TreeNode current = root;
-                while (current != null || !stack.isEmpty()) {
-                if (current != null) {
-                    stack.push(current);
-                    current = current.left;
-                } else {
-                    current = stack.pop();
-                    System.out.print(current.val);
-                    current = current.right;
+            while (current != null || !stack.isEmpty()) {
+            if (current != null) {
+                stack.push(current);
+                current = current.left;
+            } else {
+                current = stack.pop();
+                System.out.print(current.val);
+                current = current.right;
                 }
-             }
+            }
         }
     }
 
     public static void postorderTraversal(TreeNode root) {
-        if (root == null) return;
-        Stack<TreeNode> stack = new Stack<TreeNode>();
-        TreeNode current = root;
-        stack.push(current);
-        while (!stack.isEmpty()) {
-            current = stack.pop();
-            if (!stack.isEmpty() && current == stack.peek()) {
-                if (current.right != null) {
-                    stack.push(current.right);
+        if (root != null){
+            Stack<TreeNode> stack = new Stack<TreeNode>();
+            stack.push(root);
+            while (!stack.isEmpty()) {
+                TreeNode current = stack.pop();
+                if (!stack.isEmpty()) {
+                    if (current.right != null) {
+                        stack.push(current.right);
+                    }
+                    if (current.left != null) {
+                        stack.push(current.left);
+                    }
+                } else {
+                    System.out.print(current.val);
                 }
-                if (current.left != null) {
-                    stack.push(current.left);
-                }
-            } else {
-                System.out.print(current.val);
             }
         }
     }

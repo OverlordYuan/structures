@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Dynamic Programming" />
         <module name="sort" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="linklist" target="1.5" />
-      <module name="sort" target="1.5" />
+      <module name="Dynamic Programming" target="12" />
+      <module name="linklist" target="12" />
+      <module name="sort" target="12" />
     </bytecodeTargetLevel>
   </component>
 </project>
