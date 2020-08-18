@@ -8,6 +8,10 @@
       <list>
         <option value="$PROJECT_DIR$/problems/linklist/pom.xml" />
         <option value="$PROJECT_DIR$/problems/Dynamic Programming/pom.xml" />
+        <option value="$PROJECT_DIR$/problems/Trees/pom.xml" />
+        <option value="$PROJECT_DIR$/problems/Breadth-first Search/pom.xml" />
+        <option value="$PROJECT_DIR$/problems/Union Find/pom.xml" />
+        <option value="$PROJECT_DIR$/problems/Hash Table/pom.xml" />
       </list>
     </option>
   </component>

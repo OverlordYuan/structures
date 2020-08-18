@@ -20,18 +20,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c7cc3de-d448-4ae0-bbc1-3fbe83de4a3f" name="Default Changelist" comment="up">
-      <change afterPath="$PROJECT_DIR$/problems/Dynamic Programming/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/Dynamic Programming/src/main/java/lengthOfLIS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/Dynamic Programming/src/main/java/minPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/Dynamic Programming/src/main/java/pack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/Breadth-first Search/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/Breadth-first Search/src/main/java/removeInvalidParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/Dynamic Programming/src/main/java/canPartition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/Dynamic Programming/src/main/java/climbStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/Dynamic Programming/src/main/java/coinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/Dynamic Programming/src/main/java/maxProfit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/Dynamic Programming/src/main/java/maxSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/Dynamic Programming/src/main/java/numSquares.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/Dynamic Programming/src/main/java/numTrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/Dynamic Programming/src/main/java/rob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/Hash Table/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/Hash Table/src/main/java/findAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/Hash Table/src/main/java/groupAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/Hash Table/src/main/java/topKFrequent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/Trees/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/Trees/src/main/java/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/Trees/src/main/java/diameterOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/Trees/src/main/java/maxDepth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/Trees/src/main/java/mergeTrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/Union Find/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/Union Find/src/main/java/longestValidParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/sort/src/main/java/minlist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/structures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/structures.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/Dynamic Programming/Dynamic Programming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/problems/Dynamic Programming/Dynamic Programming.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/Dynamic Programming/src/main/java/pack.java" beforeDir="false" afterPath="$PROJECT_DIR$/problems/Dynamic Programming/src/main/java/pack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problems/linklist/linklist.iml" beforeDir="false" afterPath="$PROJECT_DIR$/problems/linklist/linklist.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problems/sort/sort.iml" beforeDir="false" afterPath="$PROJECT_DIR$/problems/sort/sort.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/sort/src/main/java/Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/problems/sort/src/main/java/Traversal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +83,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="12" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../工作/程序/searchDemo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../工作/程序/Entity_relationship_recognition" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -74,10 +92,15 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.lengthOfLIS">
     <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -166,7 +189,18 @@
       <workItem from="1592976389757" duration="5927000" />
       <workItem from="1593492165849" duration="18142000" />
       <workItem from="1593767093739" duration="2679000" />
-      <workItem from="1594171932493" duration="12171000" />
+      <workItem from="1594171932493" duration="18863000" />
+      <workItem from="1595320003183" duration="6545000" />
+      <workItem from="1595486115977" duration="11386000" />
+      <workItem from="1595832094131" duration="759000" />
+      <workItem from="1595913146002" duration="4118000" />
+      <workItem from="1596682017954" duration="5275000" />
+      <workItem from="1597282867702" duration="3822000" />
+      <workItem from="1597292182187" duration="1794000" />
+      <workItem from="1597372319946" duration="60000" />
+      <workItem from="1597372395898" duration="391000" />
+      <workItem from="1597372866778" duration="7590000" />
+      <workItem from="1597734539351" duration="4484000" />
     </task>
     <task id="LOCAL-00001" summary="up">
       <created>1575963008371</created>
@@ -217,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592819845388</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="up">
+      <created>1594375374862</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1594375374862</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,14 +282,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="up" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="312" y="10" key="#Project_Structure" timestamp="1593492264703">
+    <state x="312" y="10" key="#Project_Structure" timestamp="1595320173024">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="312" y="10" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1593492264703" />
-    <state x="687" y="236" key="FileChooserDialogImpl" timestamp="1594197257422">
+    <state x="312" y="10" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1595320173024" />
+    <state x="687" y="236" key="FileChooserDialogImpl" timestamp="1597734391909">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="687" y="236" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1594197257422" />
+    <state x="687" y="236" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1597734391909" />
     <state width="1866" height="280" key="GridCell.Tab.0.bottom" timestamp="1593683152118">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -281,18 +322,18 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1866" height="366" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1593683151669" />
-    <state x="344" y="21" key="SettingsEditor" timestamp="1593503933391">
+    <state x="344" y="21" key="SettingsEditor" timestamp="1597743684873">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="344" y="21" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1593503933391" />
-    <state x="452" y="208" key="Vcs.Push.Dialog.v2" timestamp="1592819860252">
+    <state x="344" y="21" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1597743684873" />
+    <state x="452" y="208" key="Vcs.Push.Dialog.v2" timestamp="1594375423929">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="452" y="208" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1592819860252" />
-    <state x="158" y="71" key="new project wizard" timestamp="1593492250942">
+    <state x="452" y="208" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1594375423929" />
+    <state x="158" y="71" key="new project wizard" timestamp="1597725100098">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="158" y="71" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1593492250942" />
+    <state x="158" y="71" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1597725100098" />
     <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1593590704912">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -320,6 +361,16 @@
           <url>file://$PROJECT_DIR$/problems/Dynamic Programming/src/main/java/lengthOfLIS.java</url>
           <line>45</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/problems/Breadth-first Search/src/main/java/removeInvalidParentheses.java</url>
+          <line>3</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/problems/Hash Table/src/main/java/findAnagrams.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

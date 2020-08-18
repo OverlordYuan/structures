@@ -26,7 +26,7 @@ public class pack {
             }
         }
 //        输出装入背包的所有商品的编号
-        List<Integer> res = new ArrayList<>();
+        List<Integer> res = new ArrayList<Integer>();
         int W = V;
         for(int k=N;k>0;k--){
             if(dp[k][W]>dp[k-1][W]){
